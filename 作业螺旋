@@ -1,0 +1,11 @@
+from turtle import *
+import turtle
+turtle.setup(400,400,400,400)
+turtle.pensize(2)
+turtle.bgcolor("black")
+colors = ['red', 'yellow', 'purple', 'blue','orange','green']
+for x in range(150):
+    turtle.forward(2*x)
+    turtle.color(colors[x % 6])
+    turtle.left(61)
+done()
